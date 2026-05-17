@@ -7,7 +7,7 @@ A resolução no mundo digital está diretamente ligada a quantidade de pixels q
 
 Para o código OpenCV, é  indiferente (a matriz de dados é exatamente a mesma). Porém, para o olho humano (no mundo físico), não é indiferente. Na TV, a imagem parecerá ter "menos resolução visual" (ficará mais pixelada ou borrada) porque os mesmos pixels foram esticados em uma área gigante. No celular, os pixels ficam espremidos, dando uma sensação de nitidez muito maior.
 
-</tr>
+***
 
 1. Por que o Recorte (Crop) altera a resolução?
 No OpenCV, uma imagem é uma matriz de pixels. Fazer um recorte significa, literalmente, extrair uma submatriz da imagem original.
@@ -74,4 +74,4 @@ cv2.INTER_AREA: O melhor e mais recomendado para quando você precisa diminuir o
 
 * Upsampling (Aumentar): Aumenta a resolução (no papel/no arquivo), mas não cria detalhes novos, gerando uma imagem borrada por conta dos pixels artificiais.
 
-</tr>
+***
